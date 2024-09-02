@@ -1,5 +1,3 @@
-Sure, here's a README file to help you run the application from GitHub:
-
 # Conversational RAG with PDF Uploads and Chat History
 
 This is a Streamlit application that allows users to upload PDF files and chat with the content of those files using a Retrieval-Augmented Generation (RAG) model.
