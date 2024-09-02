@@ -1,6 +1,6 @@
 # Conversational RAG with PDF Uploads and Chat History
 
-This is a Streamlit application that allows users to upload PDF files and chat with the content of those files using a Retrieval-Augmented Generation (RAG) model.
+This application is a Conversational Retrieval-Augmented Generation (RAG) tool built using Streamlit and the LangChain framework. It allows users to upload PDF files, and chat with the content within them, while maintaining a chat history across sessions. The application is particularly useful for question-answering tasks over large documents, with the ability to remember the context of the conversation.
 
 ## Prerequisites
 
@@ -71,10 +71,11 @@ streamlit run app.py
 - Contextual understanding of questions based on chat history
 - Leverages LangChain, Chroma, and Hugging Face Transformers libraries
 
-## Known Issues
+## Future Enhancements
 
-- The application does not handle large PDF files well and may run into memory issues.
-- The quality of the answers depends on the performance of the underlying Groq model.
+- Improved Error Handling: Enhancing the application's robustness with more comprehensive error handling.
+- Multi-format Support: Expanding support for other document formats like Word, Excel, etc.
+- Advanced Search Capabilities: Adding functionality for more complex queries and searches within the document content.
 
 ## Contributing
 
